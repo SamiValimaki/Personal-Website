@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+.Image {
+  background: url("../public/images/desk.jpg");
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.Info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: black;
+}
+
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 250px;
+  width: 100%;
+  color: black;
+  background-color: rgb(159,159,159);
+  cursor: pointer;
+  padding: 20px;
+}
+
+.Title {
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(159,159,159);
+  color: black;
+  font-size: 30px;
+}
+
+.StarWars {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100px;
+  width: 100px;
+}
+
+.Four7 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100px;
+  width: 100px;
+}
+
+.VisionBoard {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+}
+
+.Skills {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 250px;
+  width: 100%;
+  background-color: rgb(159,159,159);
+  color: black;
+  padding: 10px;
+}
+
+.Skill {
+  margin: 20px;
+}
+
+.SocialMedia {
+  background-color: rgb(159,159,159);
+  cursor: pointer;
+  margin: none;
+}
+
+.Links {
+  background-color: rgb(159,159,159);
+}
+
+.img {
+  margin-left: 30px;
+}
